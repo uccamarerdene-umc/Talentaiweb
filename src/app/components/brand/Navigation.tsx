@@ -20,7 +20,7 @@ export function Navigation() {
     { label: 'Үйлчилгээ', path: '/services', hasMegaMenu: true },
     { label: 'Хэрхэн ажилладаг', path: '/how-it-works' },
     { label: 'Бидний тухай', path: '/about' },
-    { label: 'Кейс судалгаа', path: '/case-studies' },
+    { label: 'Судалгаа', path: '/case-studies' },
     { label: 'Insights', path: '/insights' },
     { label: 'Холбоо барих', path: '/contact' },
   ];
@@ -45,11 +45,7 @@ export function Navigation() {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <Star
-              className={`w-5 h-5 fill-current transition-colors ${
-                isScrolled || !isHomePage ? 'text-[#E63995]' : 'text-white'
-              }`}
-            />
+            
             <span
               className={`text-xl font-bold tracking-wide transition-colors ${
                 isScrolled || !isHomePage ? 'text-[#1A0F3E]' : 'text-white'

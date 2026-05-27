@@ -14,28 +14,28 @@ export function HowItWorksPage() {
       number: "01",
       title: "Central Test өгөгдлийн суурь",
       description:
-        "Систем нь зөвхөн баталгаажсан Central Test methodology баримт бичгүүдийг эх сурвалж болгон ашигладаг. Энэ нь hallucination-ийг бүрэн арилгаж, зөвхөн шинжлэх ухааны үндэслэлтэй хариулт өгнө.",
+        "Тalent AI нь зөвхөн баталгаажсан Central Test-ийн дата өгөгдөл, баримт бичгүүдийг эх сурвалж болгон ашигладаг. Энэ нь hallucination буюу зохиомол хариултыг бүрэн арилгаж, зөвхөн шинжлэх ухааны үндэслэлтэй хариулт өгнө.",
       icon: Database,
     },
     {
       number: "02",
       title: "Knowledge Graph",
       description:
-        "GraphRAG технологи нь зүгээр текст хайлт биш, харин psychological traits, ажлын байр, зан үйлийн хоорондын харилцааг graph бүтцээр илэрхийлнэ. Энэ нь системд илүү гүнзгий контекст ойлголт өгнө.",
+        "GraphRAG технологи нь зүгээр текст хайлт биш, харин сэтгэл зүйн тест үнэлгээний үр дүн, ажлын байр, зан үйлийн хоорондын харилцааг graph бүтцээр илэрхийлнэ. Энэ нь системд илүү гүнзгий контекст ойлголт өгдөг.",
       icon: Network,
     },
     {
       number: "03",
       title: "Context-aware retrieval",
       description:
-        'AI нь зөвхөн түлхүүр үгээр биш, асуултын цаад утгыг ойлгоно. Хэрэв та "team conflict" гэж асуувал олон hop давж холбогдсон зүйлсийг graph-аас хайж, холбоотой өгөгдлийг нэгтгэнэ.',
+        'Хэрэглэгчийн зөвхөн оруулсан ганц хоёр түлхүүр үгэнд баригдалгүй, тухайн хайлтын цаад утга санаа, нөхцөл байдал зэргийг харгалзан хамгийн оновчтой үр дүнг гаргаж ирэх технологи юм.',
       icon: Brain,
     },
     {
       number: "04",
       title: "Continuous learning",
       description:
-        "Шинэ Central Test хэвлэл, өөрчлөлтүүд автоматаар knowledge base-д нэмэгдэж, систем үргэлж шинэчлэгддэг. Энэ нь AI зөвлөмжийг үргэлж хамгийн сүүлийн үеийн байлгана.",
+        "Central Test-ийн өгөгдөл өөрчлөлтүүд автоматаар мэдлэгийн санд нэмэгдэж, систем үргэлж шинэчлэгддэг. Энэ нь хиймэл оюун ухаант зөвлөхийг үргэлж хамгийн сүүлийн үеийн байлгана.",
       icon: RefreshCw,
     },
   ];
@@ -74,13 +74,13 @@ export function HowItWorksPage() {
           <p className="text-lg text-white/70 mb-8 max-w-2xl leading-relaxed">
             Хиймэл оюун ухаант систем хэрхэн ажиллаж, яагаад
             уламжлалт LLM-ээс илүү оновчтой хариулт өгдгийг
-            тайлбарлая
+            тайлбарлана.
           </p>
           <a
             href="#video"
             className="inline-flex items-center gap-2 bg-transparent border-2 border-white text-white px-8 py-4 rounded-full font-semibold hover:bg-white hover:text-[#2A1466] transition-colors"
           >
-            ▶ 2-минутийн тайлбар
+            ▶ Talent AI турших
           </a>
         </div>
       </section>
@@ -193,11 +193,11 @@ export function HowItWorksPage() {
           <div className="flex flex-wrap justify-center items-center gap-12 opacity-40">
             {[
               "Central Test",
-              "Big Five",
-              "CTPI",
+              "Big Five-Зан төлөвийн тест",
+              "CTPI Менежерийн тест",
               "PP-Ажилтны хандлага ур чадварын тест",
-              "16PF",
-              "CliftonStrengths",
+              "EQ-Сэтгэлийн хөдлөлөө удирдах оюуны чадамжийн тест",
+              "VOCATIOAN-Ажил мэргэжил,карьерийн чиг баримжааг тодорхойлох тест",
             ].map((tech) => (
               <div
                 key={tech}

@@ -14,7 +14,7 @@ export function HomePage() {
         <div className="absolute right-0 top-0 w-[60%] h-full">
           <div className="absolute right-0 top-1/4 w-[500px] h-[500px] bg-[#5B3FBC] rounded-full opacity-40 blur-3xl" />
           <div className="absolute right-0 top-1/3 w-[400px] h-[400px] bg-[#E63995] rounded-full opacity-25 blur-3xl" />
-          <div className="absolute right-20 top-20 w-3 h-3 bg-[#FFD23F] rounded-full" />
+          
         </div>
 
         <div className="relative max-w-[1280px] mx-auto px-6 py-32 w-full">
@@ -27,11 +27,10 @@ export function HomePage() {
 
             <h1 className="text-7xl lg:text-8xl font-bold text-white mb-4">Talent AI</h1>
             <h2 className="text-4xl italic text-[#FFD6E8] mb-6">
-              Хиймэл оюун ухаант сэтгэл зүйн зөвлөх
+              Хиймэл оюун ухаант зөвлөх систем
             </h2>
             <p className="text-lg text-white/70 mb-10 max-w-2xl leading-relaxed">
-              Central Test-ийн өгөгдөл дээр суурилсан GraphRAG систем. HR мэргэжилтнүүд болон удирдлагуудад
-              шинжлэх ухааны үндэслэлтэй, секундын дотор зөвлөгөө өгнө.
+              Central Test-ийн бүх мэдлэгийн сан, дата, тест тус бүрийн Technical Manual (Техник зааварчилгаа) зэрэгт тулгуурлан GraphRAG технологиор баяжуулан бүтээсэн систем бөгөөд хэрэглэгчид хамгийн чанартай мэдээллийг олгох "Хиймэл оюун ухаант зөвлөх" юм.
             </p>
 
             <div className="flex flex-wrap gap-4 mb-16">
@@ -84,7 +83,7 @@ export function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               { letter: 'A', title: 'Сонгон шалгаруулалт', icon: Search },
-              { letter: 'B', title: 'Авьяасын менежмент', icon: TrendingUp },
+              { letter: 'B', title: 'Talent Management', icon: TrendingUp },
               { letter: 'C', title: 'Багийн динамик', icon: Users },
               { letter: 'D', title: 'Хөгжлийн замнал', icon: Briefcase },
             ].map(({ letter, title, icon: Icon }) => (
@@ -117,9 +116,9 @@ export function HomePage() {
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
-              { num: '01', title: 'Асуултаа бичих', desc: 'Өөрийн асуултаа хэвийн хэлээр бичнэ' },
-              { num: '02', title: 'Knowledge graph хайлт', desc: 'Систем холбоотой мэдлэгийг graph-аас хайна' },
-              { num: '03', title: 'Контекст ойлгосон хариу', desc: 'AI эх сурвалжтай, гүн хариулт өгнө' },
+              { num: '01', title: 'Асуултаа бичих', desc: 'Өөрийн мэдэхийг хүссэн асуултаа бичнэ' },
+              { num: '02', title: 'Мэдлэгийн сангаас хайлт хийх', desc: 'Систем холбоотой мэдлэгийг graph-аас хайна' },
+              { num: '03', title: 'Логик дэс дараатай хариулт', desc: 'Central test-дата өгөгдөлөөс хариулт өгнө' },
             ].map(({ num, title, desc }) => (
               <div key={num} className="bg-white rounded-xl p-8 text-center">
                 <div className="text-5xl italic text-[#E63995] font-bold mb-4">{num}</div>

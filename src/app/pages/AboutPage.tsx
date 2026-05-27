@@ -5,34 +5,34 @@ import { Lightbulb, Eye, Handshake } from 'lucide-react';
 
 export function AboutPage() {
   const leadership = [
-    { name: 'Д. Батболд', role: 'Гүйцэтгэх захирал', initial: 'Б' },
-    { name: 'С. Оюунчимэг', role: 'AI технологийн ахлах зөвлөх', initial: 'О' },
-    { name: 'Ж. Энхтуяа', role: 'HR стратегийн захирал', initial: 'Э' }
+    { name: 'Д. Ерөө', role: 'Ерөнхий захирал', initial: 'Б' },
+    { name: 'Д. Асралт', role: 'Гүйцэтгэх захирал', initial: 'О' },
+    { name: 'Ц. Булган', role: 'Гүйцэтгэх захирал', initial: 'Э' }
   ];
 
   const values = [
     {
       icon: Lightbulb,
-      title: 'Ухаалаг шийдвэр',
-      description: 'Бид AI технологийг зөвхөн автоматжуулалт биш, хүний шийдвэрийг илүү ухаалаг болгох зорилгоор ашигладаг. Тоон үндэслэл, сэтгэл зүйн шинжлэх ухаан хослуулан үр дүнг хамтдаа бий болгоно.'
+      title: 'Growth mindset',
+      description: 'Бид сорилт бүрийг боломж гэж харж, тасралтгүй суралцаж,сурсан бүхнээ бусадтай хуваалцдаг.'
     },
     {
       icon: Eye,
-      title: 'Ил тод харилцаа',
-      description: 'Манай AI хэрхэн ажилладаг, ямар өгөгдөл ашигладаг, яагаад ийм зөвлөгөө өгч байгааг бид үргэлж тайлбарладаг. Хар хайрцаг AI биш, ойлгомжтой систем.'
+      title: 'Operational excellence',
+      description: 'Бид процесс бүрийг нарийвчалтай, үр ашигтай,стандарттай зохион байгуулдаг.'
     },
     {
       icon: Handshake,
-      title: 'Жинхэнэ түнш',
-      description: 'Бид зүгээр нэг борлуулагч биш. HR багуудын амжилт бидний амжилт. Үйлчлүүлэгчдээ сургаж, дэмжиж, хамтдаа өсдөг.'
+      title: 'Data-driven',
+      description: 'Таамаглал бус.бодит өгөгдөл, судалгаа шинжлэх ухааны үндэслэлтэй шийдвэр гаргадаг'
     }
   ];
 
   const timeline = [
-    { year: '2022', title: 'Компани байгуулагдсан', desc: 'UMC Монголд анхны HR зөвлөх үйлчилгээ эхлүүлсэн' },
-    { year: '2023', title: 'Central Test түншлэл', desc: 'Монголын цорын ганц Central Test албан ёсны түнш' },
-    { year: '2024', title: 'AI хөгжүүлэлт эхэлсэн', desc: 'GraphRAG технологи дээр суурилсан Talent AI прототип бүтээсэн' },
-    { year: '2025', title: 'Talent AI албан ёсоор нээгдсэн', desc: '50+ байгууллагад үйлчилж эхэлсэн' },
+    { year: '2015', title: 'Career development Center', desc: 'Central test-албан ёсны эрхтэйгээр Монголд нэвтрүүлсэн' },
+    { year: '2015', title: 'Harvard Business review', desc: 'United Business Review' },
+    { year: '2020', title: 'Business Academy', desc: 'Harvard Managementor хөтөлбөрийг хэрэгжүүлж эхэлсэн' },
+    { year: '2025', title: 'TalentHub Mongolia', desc: 'TalentHub Mongolia төслийн эхлэл Talent AI нэвтрүүлсэн' },
     { year: '2026', title: 'Өнөөдөр', desc: 'Монголын тэргүүлэх AI HR зөвлөх платформ' }
   ];
 
@@ -42,15 +42,14 @@ export function AboutPage() {
       <section className="bg-white py-20">
         <div className="max-w-[1280px] mx-auto px-6">
           <div className="flex items-center gap-2 mb-4 text-[#E63995]">
-            <span>★</span>
+            
             <span className="font-semibold text-xs tracking-[0.15em] uppercase">БИДНИЙ ТУХАЙ</span>
           </div>
           <h1 className="text-5xl lg:text-6xl font-bold text-[#1A0F3E] mb-6 max-w-4xl">
             United Consulting Management
           </h1>
           <p className="text-xl text-[#6B6485] max-w-3xl leading-relaxed">
-            UMC нь Монголын тэргүүлэх HR зөвлөх компани бөгөөд AI технологиор дэмжлэгдсэн сэтгэл зүйн үнэлгээг
-            орон нутгийн зах зээлд нэвтрүүлж байна.
+            Байгууллагын засаглал, удирдлагын чадамж, өөрчлөлтийн манлайллыг хурдасгагч байх.
           </p>
         </div>
       </section>
@@ -87,7 +86,7 @@ export function AboutPage() {
         <div className="max-w-[1280px] mx-auto px-6">
           <SectionHeader
             eyebrowText="ҮНЭТ ЗҮЙЛС"
-            title="Бидний зарчмууд"
+            title="ҮНЭТ ЗҮЙЛС"
             centered
           />
 
@@ -117,11 +116,10 @@ export function AboutPage() {
                 <span className="font-semibold text-xs tracking-[0.15em] uppercase">ЭРХЭМ ЗОРИЛГО</span>
               </div>
               <h2 className="text-4xl font-bold text-white mb-6">
-                Хүний нөөцийн шийдвэр гаргалтыг ардчилах
+                Бид өөрчлөлтийг хурдасгах удирдагчдыг бэлдэнэ.
               </h2>
               <p className="text-white/70 mb-8 leading-relaxed">
-                Бид AI технологийг ашиглан сэтгэл зүйн мэдлэгийг бүх HR мэргэжилтэн, удирдагчдад хүртээмжтэй болгож,
-                шийдвэр гаргалтыг илүү шинжлэх ухаанд суурилсан, өрөөдөлгүй болгох зорилготой.
+                Дэлхийн шилдэг манлайллын туршлагаар ТУЗ, гүйцэтгэх удирдлагын өсөлтийн сэтгэлгээг хөгжүүлж, өөрчлөлтийг хурдасгагч удирдагчдыг бэлтгэдэг манлайллын экосистемийг бүрдүүлнэ.
               </p>
               <a
                 href="/services"
@@ -146,7 +144,7 @@ export function AboutPage() {
         <div className="max-w-[1280px] mx-auto px-6">
           <SectionHeader
             eyebrowText="ТҮҮХ"
-            title="Бидний аялал"
+            title="Бидний түүх"
           />
 
           <div className="relative">

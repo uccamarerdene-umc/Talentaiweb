@@ -12,10 +12,10 @@ export function CTABlock() {
         <Eyebrow text="ХАМТРАН АЖИЛЛАЦГАЭЯ" className="justify-center text-[#FFD6E8]" />
         <h2 className="text-5xl lg:text-6xl font-bold text-white mb-6">Далд өгөгдөлөө олж нээгээрэй</h2>
         <p className="text-lg text-white/70 mb-8 max-w-2xl mx-auto">
-          UMC Talent AI-тай хамтран ажилч хөлслөлт, багийн бүтээмжийг AI-ээр дэмжүүлж, HR шийдвэрээ илүү ухаалаг болгоорой
+          Talent AI-тай ашиглан багийн бүтээмжийг хиймэл оюун ухааны тусламжтай нэмэгдүүлж, хүний нөөцийн шийдвэрээ илүү ухаалаг болгоорой
         </p>
         <BrandButton variant="primary" href="#chat">
-          Үнэгүй туршиж үзэх →
+          Тalent AI-г турших →
         </BrandButton>
       </div>
     </section>

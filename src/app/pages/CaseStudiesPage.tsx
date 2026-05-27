@@ -10,15 +10,15 @@ export function CaseStudiesPage() {
     {
       industry: 'Банк',
       status: 'ИДЭВХТЭЙ КЕЙС',
-      title: "Монголын томоохон банк",
-      description: "Talent AI ашиглаж нэр дэвшигчдийн psychological profile-тай үндэслэн ажлын байранд таарах эсэхийг урьдчилан таамаглаж, сургалтын хөрөнгө оруулалтыг оновчтой болгосон.",
+      title: "Монгол менежер гэж хэн бэ?",
+      description: "Монгол менежер бол өвөрмөц. Олон зууны нүүдэлчдийн соёлоос уламжилсан уян хатан байдал, тэвчээр, хамтын зорилгод чиглэх чадвар нь өнөөгийн дэлхийн бизнесийн орчинд маш үнэ цэнтэй давуу тал болж байна. ",
       metric: "85% илүү оновчтой хөлслөлт",
       icon: Building2
     },
     {
       industry: 'Дижитал',
       status: 'ДУУССАН КЕЙС',
-      title: "Tech scale-up компани",
+      title: "«EXECUTIVE SUMMIT 2026 – STEPPE MANAGER» ",
       description: "Багийн динамик шинжилгээгээр хамтын ажиллагааг сайжруулж, turnover 40%-иар бууруулсан.",
       metric: "40% бага turnover",
       icon: Code
@@ -26,16 +26,16 @@ export function CaseStudiesPage() {
     {
       industry: 'Үйлдвэрлэл',
       status: 'ИДЭВХТЭЙ КЕЙС',
-      title: "Олон улсын үйлдвэрлэлийн компани",
-      description: "Авьяасын менежментээр ажилчдын skill gap илрүүлж, зорилтот сургалт өгснөөр бүтээмж 30% нэмэгдсэн.",
+      title: "Тал нутгийн менежер танд ямар чадвар дутаж байна вэ?",
+      description: "Монгол менежерүүдийн ур чадварын ерөнхий дундаж оноо 100-аас 55 оноо буюу хөгжих боломжтой түвшинд үнэлэгдсэн байна. Нийт оролцогчдын дийлэнх буюу 69 хувь нь дунд түвшинд, 28.6 хувь нь өндөр түвшинд, харин ердөө 2.4 хувь нь ур чадвараа нэн даруй хөгжүүлэх шаардлагатай сул түвшинд багтжээ. Энэхүү үзүүлэлт нь менежерүүдэд өсөж дэвжих нөөц бололцоо хангалттай байгаа ч тогтвортой өндөр гүйцэтгэл үзүүлэхэд хараахан бэлэн биш байгааг харуулж байна.яасын менежментээр ажилчдын skill gap илрүүлж, зорилтот сургалт өгснөөр бүтээмж 30% нэмэгдсэн.",
       metric: "30% өссөн бүтээмж",
       icon: Factory
     },
     {
       industry: 'Боловсрол',
       status: 'ИДЭВХТЭЙ КЕЙС',
-      title: "Их сургууль",
-      description: "Багш нарын хөгжлийн замнал төлөвлөхөд Talent AI-г ашиглаж, succession planning-ийг 6 сараар богиносгосон.",
+      title: "EXECUTIVE SUMMIT 2026 – STEPPE MANAGER»",
+      description: "EXECUTIVE SUMMIT 2026 — STEPPE MANAGER» Удирдлагуудын нэгдсэн уулзалт «STEPPE SOUL, SUSTAINABLE GOAL» уриан доор амжилттай зохион байгуулагдлаа. Монгол Улсын Ерөнхий сайд Н. Учралын дэмжлэгээр, Эдийн засаг, хөгжлийн яам болон Монголын Үндэсний Худалдаа Аж Үйлдвэрийн Танхим (МҮХАҮТ)-тай хамтран зохион байгуулсан тус арга хэмжээнд Монгол Улсын тэргүүлэх компаниудын 200 гаруй захирал, удирдах ажилтан нэгдэн оролцлоо.",
       metric: "6 сар хэмнэсэн",
       icon: GraduationCap
     },
@@ -46,14 +46,6 @@ export function CaseStudiesPage() {
       description: "Борлуулалтын багийн найрлагыг оновчлож, багийн бүтээмжийг 2 дахин нэмэгдүүлсэн.",
       metric: "2x багийн бүтээмж",
       icon: TrendingUp
-    },
-    {
-      industry: 'Дижитал',
-      status: 'ИДЭВХТЭЙ КЕЙС',
-      title: "Startup компани",
-      description: "Анхны 20 ажилчаа сонгон шалгаруулахад Talent AI-г ашиглаж, culture fit-ийг 95%-иар нэмэгдүүлсэн.",
-      metric: "95% culture fit",
-      icon: Code
     }
   ];
 
@@ -71,14 +63,14 @@ export function CaseStudiesPage() {
       <section className="bg-white py-20">
         <div className="max-w-[1280px] mx-auto px-6">
           <div className="flex items-center gap-2 mb-4 text-[#E63995]">
-            <span>★</span>
-            <span className="font-semibold text-xs tracking-[0.15em] uppercase">КЕЙС СУДАЛГАА</span>
+            
+            <span className="font-semibold text-xs tracking-[0.15em] uppercase">СУДАЛГАА</span>
           </div>
           <h1 className="text-5xl lg:text-6xl font-bold text-[#1A0F3E] mb-6 max-w-4xl">
-            Бодит үр дүн гаргасан байгууллагууд
+            Монгол менежерийн дүр төрх-2026
           </h1>
           <p className="text-xl text-[#6B6485] max-w-3xl leading-relaxed">
-            UMC Talent AI хэрхэн ашиглаж hiring, retention, багийн бүтээмжийг сайжруулсан бодит кейсүүд.
+            МОНГОЛ МЕНЕЖЕРИЙН ДҮР ТӨРХ” судалгааг 5 жилийн хугацаанд 1,033 менежерийн онцлог шинж чанар, сэтгэлгээний болон ажиллах хэв маяг, 9 бүлгийн 59 зөөлөн ур чадварыг олон улсын "Central Test - CTPI" аргачлалаар тодорхойлсон бодит датад тулгуурлан  боловсруулсан юм.
           </p>
         </div>
       </section>
@@ -90,32 +82,12 @@ export function CaseStudiesPage() {
             {/* Status Tabs */}
             <div className="flex gap-2">
               {['Идэвхтэй кейс', 'Дууссан кейс'].map((tab) => (
-                <button
-                  key={tab}
-                  onClick={() => setActiveFilter(tab)}
-                  className={`px-6 py-2 rounded-full font-semibold transition-colors ${
-                    activeFilter === tab
-                      ? 'bg-[#E63995] text-white'
-                      : 'bg-white text-[#6B6485] hover:bg-[#E9E2FA]'
-                  }`}
-                >
-                  {tab}
-                </button>
+                null
               ))}
             </div>
 
             {/* Industry Filter */}
-            <select
-              value={industryFilter}
-              onChange={(e) => setIndustryFilter(e.target.value)}
-              className="px-4 py-2 rounded-full border border-[#EBE7F4] bg-white text-[#1A0F3E] font-medium"
-            >
-              {industries.map((industry) => (
-                <option key={industry} value={industry}>
-                  {industry}
-                </option>
-              ))}
-            </select>
+            
           </div>
         </div>
       </section>
@@ -160,43 +132,34 @@ export function CaseStudiesPage() {
       <section className="bg-[#E9E2FA] py-24">
         <div className="max-w-[1280px] mx-auto px-6">
           <div className="flex items-center gap-2 mb-8 text-[#5B3FBC]">
-            <span>★</span>
-            <span className="font-semibold text-xs tracking-[0.15em] uppercase">ОНЦГОЙ КЕЙС</span>
+            
+            <span className="font-semibold text-xs tracking-[0.15em] uppercase">Судалгаа</span>
           </div>
 
           <div className="bg-white rounded-xl overflow-hidden grid grid-cols-1 lg:grid-cols-5">
             <div className="lg:col-span-3 p-12">
-              <div className="w-32 h-12 bg-[#E9E2FA] rounded mb-6 flex items-center justify-center text-[#5B3FBC] font-bold">
-                LOGO
+              <div className="w-32 h-12 bg-[#E9E2FA] rounded mb-6 flex items-center justify-center text-[#5B3FBC] font-bold text-center">
+                Steppe Manager
               </div>
 
               <h2 className="text-3xl font-bold text-[#1A0F3E] mb-6">
-                Монголын томоохон банкны дижитал хувьсгал
+                Монгол Менежерийн дүр төрх
               </h2>
 
               <p className="text-[#6B6485] mb-6 leading-relaxed">
-                2024 онд банк дижитал багаа өргөжүүлж, 50 шинэ ажилтан авахдаа Talent AI-г ашигласан.
-                Уламжлалт CV шүүлт, 3 давтан интервьюгийн оронд, нэр дэвшигчдийн Big Five болон MBTI
-                профайлыг AI тайлбарлаж, culture fit болон collaboration style-ийг урьдчилан үнэлсэн.
+                Тус судалгаа нь 5 жилийн хугацаанд (2020–2025), нийт 1,033 менежерийг хамруулан олон улсад хүлээн зөвшөөрөгдсөн «Central Test — CTPI» аргачлалаар: Менежерийн бие хүний онцлог шинж чанар (4 бүлэг, 19 үзүүлэлт) Сэтгэлгээний болон ажиллах хэв маяг 9 бүлгийн 59 зөөлөн ур чадвар 7 төрлийн менежерийн хэв маяг— зэргийг шинжлэх ухааны үндэслэлтэйгээр тодорхойлсон.
               </p>
 
-              <p className="text-[#6B6485] mb-6 leading-relaxed">
-                Үр дүн нь гайхалтай: хөлслөлтийн дараах 6 сард ганц л 1 ажилтан гарсан (retention 98%),
-                багийн бүтээмж төлөвлөснөөс 40% давсан, сургалтын зардал 60%-иар буурсан.
-              </p>
+              
 
               <div className="grid grid-cols-3 gap-4 mb-8">
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E63995]">98%</div>
-                  <div className="text-sm text-[#6B6485]">Retention</div>
+                  <div className="text-3xl font-bold text-[#E63995]">88%</div>
+                  <div className="text-sm text-[#6B6485]">Төслийн менежер хэв шинж</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E63995]">40%</div>
-                  <div className="text-sm text-[#6B6485]">Давсан бүтээмж</div>
-                </div>
-                <div className="text-center">
-                  <div className="text-3xl font-bold text-[#E63995]">60%</div>
-                  <div className="text-sm text-[#6B6485]">Буурсан зардал</div>
+                  <div className="text-3xl font-bold text-[#E63995]">74%</div>
+                  <div className="text-sm text-[#6B6485]">Идэвхжүүлэгч менежер хэв шинж</div>
                 </div>
               </div>
 
@@ -204,15 +167,15 @@ export function CaseStudiesPage() {
                 href="#"
                 className="inline-flex items-center gap-2 bg-[#E63995] text-white px-8 py-4 rounded-full font-semibold hover:bg-[#2A1466] transition-colors"
               >
-                Бүтэн кейс унших →
+                Судалгааны тайлантай танилцах →
               </a>
             </div>
 
             <div className="lg:col-span-2 bg-[#2A1466] flex items-center justify-center p-12">
               <div className="text-center text-white">
-                <div className="text-7xl font-bold mb-4">50</div>
-                <div className="text-xl">Шинэ ажилтан</div>
-                <div className="text-sm opacity-70 mt-2">6 сард хөлслөсөн</div>
+                <div className="text-7xl font-bold mb-4">1033</div>
+                <div className="text-xl">МОНГОЛ МЕНЕЖЕР</div>
+                <div className="text-sm opacity-70 mt-2">5 жил</div>
               </div>
             </div>
           </div>

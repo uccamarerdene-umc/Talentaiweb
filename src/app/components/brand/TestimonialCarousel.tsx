@@ -3,19 +3,19 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 
 const testimonials = [
   {
-    quote: "Talent AI нь манай сонгон шалгаруулалтын үйл явцыг бүрэн өөрчилсөн. Нэр дэвшигчдийн үнэлгээ одоо 5 минутад ордог бол өмнө нь 2 цаг зарцуулдаг байсан.",
+    quote: "Talent AI нь манай сонгон шалгаруулалтын үйл явцыг бүрэн өөрчилсөн.",
     name: "Б. Болормаа",
     role: "HR Захирал",
     company: "Монголын томоохон банк"
   },
   {
-    quote: "GraphRAG технологи нь зүгээр нэг хайлт биш, бодит ойлголттой зөвлөгөө өгдөг. Багийн динамикийг урьдчилан таамаглаж, асуудал гарахаас өмнө шийддэг.",
+    quote: "Тalent AI нь зүгээр нэг хайлт биш, бодит ойлголттой зөвлөгөө өгдөг. Багийн динамикийг урьдчилан таамаглаж, асуудал гарахаас өмнө шийддэг.",
     name: "Ч. Энхбаяр",
     role: "Хүний нөөцийн менежер",
     company: "Tech Scale-up"
   },
   {
-    quote: "Central Test өгөгдөл дээр суурилсан учир бид AI хариултанд бүрэн итгэдэг. Hallucination гэж байхгүй, зөвхөн шинжлэх ухааны үндэслэлтэй санал.",
+    quote: "Central Test өгөгдөл дээр суурилсан учир бид AI хариултанд бүрэн итгэдэг. Hallucination гэж байхгүй, зөвхөн шинжлэх ухааны үндэслэлтэй хариулт өгдөг.",
     name: "Д. Оюунэрдэнэ",
     role: "Суралцахуй хөгжлийн ахлах мэргэжилтэн",
     company: "Олон улсын корпораци"
@@ -36,7 +36,7 @@ export function TestimonialCarousel() {
           <span className="text-[#E63995] font-semibold text-xs tracking-[0.15em] uppercase">ХЭРЭГЛЭГЧДИЙН СЭТГЭГДЭЛ</span>
         </div>
         <h2 className="text-4xl font-bold text-center mb-16 text-[#1A0F3E]">
-          Хэрэглэгчид юу гэж байна вэ?
+          Хэрэглэгчидийн сэтгэгдэл?
         </h2>
 
         <div className="relative max-w-4xl mx-auto">
@@ -66,9 +66,7 @@ export function TestimonialCarousel() {
               </div>
               <div>
                 <div className="font-semibold text-[#1A0F3E]">{testimonials[currentIndex].name}</div>
-                <div className="text-sm text-[#6B6485]">
-                  {testimonials[currentIndex].role} · {testimonials[currentIndex].company}
-                </div>
+                
               </div>
             </div>
           </div>
